@@ -1,0 +1,21 @@
+/* .fast{
+    display: flex;
+}
+.description{
+    display: flex;
+}
+.buttons{
+    display: flex;
+} */
+*{
+    background-color: #fff0f6;
+}
+.landpage{
+    display: flex;
+   gap: 20%;
+   padding: 40px;
+}
+.food{
+    color: red;
+    font-size: 30px;
+}

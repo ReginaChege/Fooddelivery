@@ -1,0 +1,15 @@
+.home{
+    color: black;
+    }
+.nav a{
+    text-decoration: none;
+    /* margin-left: 60px; */
+    padding: 20px;
+    color: grey;
+}
+button{
+    color: red;
+}
+.foodie{
+    color: orange;
+}

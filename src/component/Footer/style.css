@@ -1,0 +1,11 @@
+.footer{
+    gap: 20px;
+    background-color: lightpink;
+}
+td{
+    color: red;
+}
+tr{
+    font-weight: lighter;
+
+}
