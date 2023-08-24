@@ -13,27 +13,12 @@ function App() {
       <Navbar/>
       <LandingPage/>
       <Option/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <Delivery/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <RegularMenu/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <Offers/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <Footer/>
     </div>
+    
   );
 }
 

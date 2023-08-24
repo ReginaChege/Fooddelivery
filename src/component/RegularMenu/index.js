@@ -1,57 +1,49 @@
-import React from "react";
-import './style.css'
+import React from 'react';
+import './style.css';
 
-
-const RegularMenu=()=>{
-return(
-    <div>
-        <div className="menu">
-            
-        <h1>Our <span>Regular</span> Menu</h1>
-            
-                <p>These Are Our Regular Menus You Can<br/>Order Anything Like </p>
-           <div/>
-            <div>
-                <button>See All</button>
-            </div>
-            </div>
-       
+const RegularMenu = () => {
+    const images = [
+        'images/buggerchilli.jpg',
+        'images/pizza.jpg',
+        'images/chicken.jpg',
+        'images/grilled sandwitch.png',
+        'images/tacco.jpg',
+        'images/vegetable soup.jpg',
+    ];
+    const item = [
+        'Chicken Burger',
+        'Chicken Pizza',
+        'Chicken Fry',
+        'Grilled Sandwitch',
+        'Taco Traifi',
+        'Noddles Ramen',
+    ];
+    
+    return (
         <div className="regular">
-            <div>
-                <img></img>
-                <p>Chicken Burger</p>
-                <p></p>
+            <div className="container">
                 <div>
-                <div>
-                    <p>$3.50</p>
+                    <div> 
+                        <h1>Our <span className="regulaar">Regular </span>Menu</h1>
+                        <p>These Are Our Regular Menus. You Can Order Anything You Like</p>
+                    </div>
+                    <div className="col-md-4">
+                        <button type="button" class="btn">See All</button>
+                    </div>
                 </div>
-                </div>
-                <div className="buynow">
-                    <button>Buy Now</button>
-                </div>
-              
+            </div>
+            <div className="map">
+                {images.map((image, index) => (
+                    <div className="menu-item" key={index}>
+                        <img src={image} alt="Product" className="product" />
+                        <div className="product-details">
+                            <h1>{item[index]}</h1>
+                        </div>
+                    </div>
+                ))}
             </div>
         </div>
-        <div>
-            <div>
-                <img></img>
-                <p>Chicken Burger</p>
-                <p></p>
-                <div>
-                <div>
-                    <p>$3.50</p>
-                </div>
-                </div>
-                <div className="buynow">
-                    <button>Buy Now</button>
-                </div>
-              
-            </div>
-        </div>
-       
-        </div>
-
-)
+    );
 }
 
 export default RegularMenu;

@@ -1,7 +1,83 @@
-.regular{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
-.menu{
+/* .menu{
     display: flex;
 }
+.delicay{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+
+   */
+   /* Add your global styles here */
+
+   .regular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .menu-regular {
+    margin-bottom: 20px;
+  }
+  
+  .regulaar {
+    color: #ff0000;
+  }
+  
+  .col-md-4 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .map {   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    border-radius: 20px;
+  }
+  
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    border: #000000;
+  }
+  
+  .product {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 15px solid red;
+    padding: 16px;
+    border-radius: 50%; 
+    border-width: 5px; 
+
+
+  }
+  
+  .product-details {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  
+  

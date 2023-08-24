@@ -1,9 +1,5 @@
 import React from "react";
 import './style.css'
-import bugger from './bugger.png'
-import frenchfries from './frenchfries.jpeg'
-import pizzaslice from './pizzaslice.jpg'
-
 const Delivery=()=>{
 return(
     <div>
@@ -19,18 +15,19 @@ return(
         </div>
         </div>
         <div className="three">
+            
         <div>
-            <img src={bugger} className="bugger"></img>
-            <p>Chicken Burger</p>
-            <a href="order now">Order Now</a>
+            <img src="/images/bugger.png"className="buggerr"></img>
+            <p className="chickenn">Chicken Burger</p>
+            <a href="order now" className="chickenn">Order Now</a>
         </div>
         <div>
-            <img src={pizzaslice} className="pizza"></img>
+            <img src="/images/pizzaslice.png" className="pizza"></img>
             <p className="chicken">Chicken Pizza</p>
             <a href="order now" className="chicken">Order Now</a>
         </div>
         <div>
-            <img src={frenchfries} className="frenchfries"></img>
+            <img src="/images/frenchfries.jpeg" className="frenchfries"></img>
             <p>French Fries</p>
             <a href="order now">Order Now</a>
         </div>

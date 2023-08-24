@@ -1,6 +1,5 @@
 import React from "react";
 import './style.css'
-import sandwitch from './sandwitch.png'
 
 const LandingPage=()=>{
     return(
@@ -9,11 +8,17 @@ const LandingPage=()=>{
                 <p className="food">All fast food 
            <br/>Available at Foodie</p>
            <p>We Are Just A Click Away When You <br/>Crazy For Delicious Fast Food</p>
-           <button>Buy Now</button>
-           <button>How To Order</button>
+           <div className="but">
+            <div>
+            <button>Buy Now</button>
+            </div>
+            <div>
+            <button>How To Order</button>
+            </div>
+           </div>
                 </div>
             <div>
-                <img src={sandwitch}></img>
+                <img src="/images/sandwitch.png"></img>
             </div>
             </div>
     )
